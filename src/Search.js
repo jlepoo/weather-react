@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import weather from "./weather";
+import Weather from "./weather";
 import axios from "axios";
 
 export default function Search() {
@@ -34,7 +34,7 @@ export default function Search() {
         <input type="submit" value="Search" />
       </form>
 
-      <weather
+      <Weather
         temperature={temperature}
         description={description}
         humidity={humidity}
