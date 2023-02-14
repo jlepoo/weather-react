@@ -90,6 +90,18 @@ function App() {
         ) : (
           ""
         )}
+        <footer>
+          <div>
+            This project was coded by Jana Lepojevic and is{" "}
+            <a
+              href="https://github.com/jlepoo/weather-react"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced on Github
+            </a>
+          </div>
+        </footer>
       </main>
     </div>
   );
